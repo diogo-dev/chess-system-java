@@ -1,9 +1,14 @@
 package application;
 
-public class Program {
+import boardgame.Position;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Program 
+{
+	public static void main(String[] args) 
+	{
+		Position p = new Position(3, 5);
+		
+		System.out.println(p);
 
 	}
 
